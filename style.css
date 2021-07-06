@@ -146,3 +146,18 @@ margin-bottom: 10px;
     background-image: linear-gradient(90deg, rgb(76, 60, 165) 3%, rgb(243, 239, 236) 92%);
     margin: 5px;
 }
+.review{
+    width: 33%;
+    margin: 15px;
+    border: black 2px solid;
+    border-radius: 15px;
+    box-shadow: black;
+    padding: 5px;
+    background-color: blanchedalmond;
+}
+.customer-review{
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 10px;
+
+}
