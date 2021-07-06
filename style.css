@@ -85,6 +85,7 @@ h3{
     text-align: justify;
     text-align: left;
 }
+
 .reci-name{
     font-size: 35px;
     color:black;
@@ -162,6 +163,13 @@ margin-bottom: 10px;
     padding: 10px;
 
 }
+.customer-msg{
+   color: gray;
+    padding: 5px;
+   
+    text-align: center;
+    border-top: gray 2px solid;
+}
 .delivary{
     width: 33%;
     margin: 15px;
@@ -171,4 +179,49 @@ margin-bottom: 10px;
     padding: 5px;
  
     box-shadow: 12px 9px 18px -7px rgba(152,255,58,0.6);
+}
+
+
+.inp{
+
+    color: white;
+    display: block;
+   width: 50%;
+    padding: 20px;
+   margin-left: 25%;
+   margin-right: 25%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border:green solid 2px;
+    
+}
+.inp:hover{
+    background-color:rgb(194, 173, 173);
+    box-shadow: 12px 9px 18px -7px rgba(53, 176, 192, 0.6);
+}
+#sign-up{
+    padding: 15px;
+   margin-left: 25%;
+   color:white;
+   font-weight: bold;
+   text-align: center;
+   border-radius: 15px;
+   cursor: pointer;
+    background-image: linear-gradient(90deg, rgb(66, 143, 96) 3%, rgb(82, 67, 55) 92%);
+}
+.address{
+   border-left: green 3px solid;
+    display: flex;
+    margin: 25px;
+    padding: 10px;
+    box-shadow: 12px 9px 18px -7px rgba(10, 15, 5, 0.6);
+   
+}
+.address-text{
+    width: 50%;
+    padding: 5px;
+    margin:5px;
+    border: grey solid 1px;
+    border-radius: 10px;
+
 }
